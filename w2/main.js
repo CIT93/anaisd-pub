@@ -10,4 +10,4 @@ const myTransportation = 10;
 const Total = myHouseholdMembers + myHomeSize + myFoodChoices + myWaterConsumption + myHouseholdPurchases + myWasteProduction + myRecycle + myTransportation;
 
 const myHeading = document.querySelector("h2");
-myHeading.textContent = "52";
+myHeading.textContent = Total;
